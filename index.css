@@ -1,0 +1,62 @@
+body {
+    background-image: url("/TASKS.jpg");
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: chocolate;
+    height: 100vh;
+
+    text-shadow:
+    -2px -2px 0 white,  
+     2px -2px 0 white,
+    -2px  2px 0 white,
+     2px  2px 0 white;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+      box-shadow: 
+        -1px -1px 0 white, 
+         1px -1px 0 white,
+        -5px  5px 20px rgba(255, 255, 255, 0.5),
+         1px  1px 0 rgba(0, 0, 0, 0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#increment-btn {
+    background: chocolate;
+}
+
+#save-btn {
+    background: darkblue;
+}
+
+#main {
+    margin: 80px auto;
+    max-width: 1000px;
+    border: 5px solid white;
+    border-radius: 20px;
+    width: 400px;
+    height: auto;
+    background-color: rgba(255,255,214,0.5);
+
+}
